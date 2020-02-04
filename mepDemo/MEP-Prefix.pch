@@ -1,0 +1,17 @@
+//
+//  MEPRMPrefixHeader.h
+//
+//  Created by Moxtra on 2018/10/31.
+//  Copyright © 2018 moxtra. All rights reserved.
+//
+
+#ifndef MEPRMPrefixHeader_h
+#define MEPRMPrefixHeader_h
+
+#define MOXTRA_DOMAIN           @"INPUT YOUR DOMAIN"
+#define CLIENT_ID               @"INPUT YOUR CLIENT ID"
+#define CLIENT_Secret           @"INPUT YOUR CLINET SECRET"
+#define ORG_ID                  @"INPUT YOUR ORG ID"
+#define DEFAULT_UNIQUEID        @"INPUT DEFAULT UNIQUEID"
+
+#endif /* MEPRMPrefixHeader_h */

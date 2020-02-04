@@ -1,0 +1,867 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D3D5282351C6D2001F8895 /* mepDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D3D5272351C6D2001F8895 /* mepDemoUITests.m */; };
+		163AC91B225F14F1005736FE /* launch_screen_global@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 163AC914225F14F0005736FE /* launch_screen_global@2x.png */; };
+		163AC91C225F14F1005736FE /* launch_screen_global@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 163AC915225F14F0005736FE /* launch_screen_global@3x.png */; };
+		163AC91D225F14F1005736FE /* bank_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 163AC916225F14F0005736FE /* bank_logo.png */; };
+		163AC91E225F14F1005736FE /* launch_screen_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 163AC917225F14F0005736FE /* launch_screen_bg.png */; };
+		163AC91F225F14F1005736FE /* launch_screen_global.png in Resources */ = {isa = PBXBuildFile; fileRef = 163AC918225F14F0005736FE /* launch_screen_global.png */; };
+		163AC920225F14F1005736FE /* bank_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 163AC919225F14F0005736FE /* bank_logo@2x.png */; };
+		163AC921225F14F1005736FE /* bank_logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 163AC91A225F14F0005736FE /* bank_logo@3x.png */; };
+		168D4ECA226864DA006B49D9 /* NSURLSession+POST.m in Sources */ = {isa = PBXBuildFile; fileRef = 168D4EC9226864DA006B49D9 /* NSURLSession+POST.m */; };
+		16AF93BA225DDB1C00512EBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AF93B9225DDB1C00512EBE /* AppDelegate.m */; };
+		16AF93C2225DDB1E00512EBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16AF93C1225DDB1E00512EBE /* Assets.xcassets */; };
+		16AF93C8225DDB1E00512EBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AF93C7225DDB1E00512EBE /* main.m */; };
+		16AFAE66225DDD3700512EBE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAE62225DDD3600512EBE /* LoginViewController.m */; };
+		16AFAE67225DDD3700512EBE /* MEPFloatTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAE64225DDD3600512EBE /* MEPFloatTextField.m */; };
+		16AFAE82225DDD6D00512EBE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAE6A225DDD6D00512EBE /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		16AFAE83225DDD6D00512EBE /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAE73225DDD6D00512EBE /* ViewController+MASAdditions.m */; };
+		16AFAE84225DDD6D00512EBE /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAE77225DDD6D00512EBE /* MASCompositeConstraint.m */; };
+		16AFAE85225DDD6D00512EBE /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAE78225DDD6D00512EBE /* MASConstraintMaker.m */; };
+		16AFAE86225DDD6D00512EBE /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAE79225DDD6D00512EBE /* MASLayoutConstraint.m */; };
+		16AFAE87225DDD6D00512EBE /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAE7A225DDD6D00512EBE /* NSArray+MASAdditions.m */; };
+		16AFAE88225DDD6D00512EBE /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAE7B225DDD6D00512EBE /* View+MASAdditions.m */; };
+		16AFAE89225DDD6D00512EBE /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAE7E225DDD6D00512EBE /* MASConstraint.m */; };
+		16AFAE8A225DDD6D00512EBE /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAE80225DDD6D00512EBE /* MASViewConstraint.m */; };
+		16AFAE8B225DDD6D00512EBE /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAE81225DDD6D00512EBE /* MASViewAttribute.m */; };
+		16AFAEA4225DE15400512EBE /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 16AFAEA3225DE15400512EBE /* libc++.tbd */; };
+		16AFAEA6225DE15900512EBE /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 16AFAEA5225DE15900512EBE /* libxml2.2.tbd */; };
+		16AFAEA8225DE15C00512EBE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 16AFAEA7225DE15C00512EBE /* libz.tbd */; };
+		16AFAEB1225DE43300512EBE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16AFAEB0225DE43300512EBE /* LaunchScreen.xib */; };
+		16AFAEBB225ED90B00512EBE /* MEPInterfaceSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAEBA225ED90B00512EBE /* MEPInterfaceSampleViewController.m */; };
+		A821A10D2351B1E6001B45A7 /* MEPSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A821A10A2351B1E5001B45A7 /* MEPSDK.framework */; };
+		A821A10E2351B1E6001B45A7 /* MEPSDKResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A821A10B2351B1E6001B45A7 /* MEPSDKResource.bundle */; };
+		A821A10F2351B1E6001B45A7 /* ChatSDKResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A821A10C2351B1E6001B45A7 /* ChatSDKResource.bundle */; };
+		A84045CF233C5BC100FB5B61 /* MEPInterfaceSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAEBA225ED90B00512EBE /* MEPInterfaceSampleViewController.m */; };
+		A84045D0233C5BC100FB5B61 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAE80225DDD6D00512EBE /* MASViewConstraint.m */; };
+		A84045D1233C5BC100FB5B61 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAE81225DDD6D00512EBE /* MASViewAttribute.m */; };
+		A84045D2233C5BC100FB5B61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AF93C7225DDB1E00512EBE /* main.m */; };
+		A84045D3233C5BC100FB5B61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AF93B9225DDB1C00512EBE /* AppDelegate.m */; };
+		A84045D4233C5BC100FB5B61 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAE7A225DDD6D00512EBE /* NSArray+MASAdditions.m */; };
+		A84045D5233C5BC100FB5B61 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAE73225DDD6D00512EBE /* ViewController+MASAdditions.m */; };
+		A84045D6233C5BC100FB5B61 /* NSURLSession+POST.m in Sources */ = {isa = PBXBuildFile; fileRef = 168D4EC9226864DA006B49D9 /* NSURLSession+POST.m */; };
+		A84045D7233C5BC100FB5B61 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAE77225DDD6D00512EBE /* MASCompositeConstraint.m */; };
+		A84045D8233C5BC100FB5B61 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAE62225DDD3600512EBE /* LoginViewController.m */; };
+		A84045D9233C5BC100FB5B61 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAE7B225DDD6D00512EBE /* View+MASAdditions.m */; };
+		A84045DA233C5BC100FB5B61 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAE78225DDD6D00512EBE /* MASConstraintMaker.m */; };
+		A84045DB233C5BC100FB5B61 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAE7E225DDD6D00512EBE /* MASConstraint.m */; };
+		A84045DC233C5BC100FB5B61 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAE6A225DDD6D00512EBE /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		A84045DD233C5BC100FB5B61 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAE79225DDD6D00512EBE /* MASLayoutConstraint.m */; };
+		A84045DE233C5BC100FB5B61 /* MEPFloatTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAE64225DDD3600512EBE /* MEPFloatTextField.m */; };
+		A84045E0233C5BC100FB5B61 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 16AFAEA3225DE15400512EBE /* libc++.tbd */; };
+		A84045E1233C5BC100FB5B61 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 16AFAEA7225DE15C00512EBE /* libz.tbd */; };
+		A84045E2233C5BC100FB5B61 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 16AFAEA5225DE15900512EBE /* libxml2.2.tbd */; };
+		A84045E5233C5BC100FB5B61 /* bank_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 163AC916225F14F0005736FE /* bank_logo.png */; };
+		A84045E6233C5BC100FB5B61 /* launch_screen_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 163AC917225F14F0005736FE /* launch_screen_bg.png */; };
+		A84045E7233C5BC100FB5B61 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16AFAEB0225DE43300512EBE /* LaunchScreen.xib */; };
+		A84045E8233C5BC100FB5B61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16AF93C1225DDB1E00512EBE /* Assets.xcassets */; };
+		A84045E9233C5BC100FB5B61 /* launch_screen_global@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 163AC915225F14F0005736FE /* launch_screen_global@3x.png */; };
+		A84045EA233C5BC100FB5B61 /* launch_screen_global.png in Resources */ = {isa = PBXBuildFile; fileRef = 163AC918225F14F0005736FE /* launch_screen_global.png */; };
+		A84045EB233C5BC100FB5B61 /* launch_screen_global@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 163AC914225F14F0005736FE /* launch_screen_global@2x.png */; };
+		A84045ED233C5BC100FB5B61 /* bank_logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 163AC91A225F14F0005736FE /* bank_logo@3x.png */; };
+		A84045EF233C5BC100FB5B61 /* bank_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 163AC919225F14F0005736FE /* bank_logo@2x.png */; };
+		A840460B233C5BEA00FB5B61 /* libMEPSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8404605233C5BE500FB5B61 /* libMEPSDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02D3D52A2351C6D2001F8895 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16AF93AD225DDB1C00512EBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16AF93B4225DDB1C00512EBE;
+			remoteInfo = mepDemo;
+		};
+		A8404604233C5BE500FB5B61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A84045F5233C5BE300FB5B61 /* MEPSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6666F7FF1FC6F5800074E792;
+			remoteInfo = MEPSDK;
+		};
+		A8404606233C5BE500FB5B61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A84045F5233C5BE300FB5B61 /* MEPSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 66B543631FD295B300F396BA;
+			remoteInfo = MEPSDKResource;
+		};
+		A8404608233C5BE500FB5B61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A84045F5233C5BE300FB5B61 /* MEPSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1694F44421BFA31600275703;
+			remoteInfo = MEPSDKUnitTest;
+		};
+		A840460C233C5BEE00FB5B61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A84045F5233C5BE300FB5B61 /* MEPSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6666F7FE1FC6F5800074E792;
+			remoteInfo = MEPSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02D3D5252351C6D2001F8895 /* mepDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mepDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D3D5272351C6D2001F8895 /* mepDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mepDemoUITests.m; sourceTree = "<group>"; };
+		02D3D5292351C6D2001F8895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		163AC914225F14F0005736FE /* launch_screen_global@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_screen_global@2x.png"; sourceTree = "<group>"; };
+		163AC915225F14F0005736FE /* launch_screen_global@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_screen_global@3x.png"; sourceTree = "<group>"; };
+		163AC916225F14F0005736FE /* bank_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bank_logo.png; sourceTree = "<group>"; };
+		163AC917225F14F0005736FE /* launch_screen_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_screen_bg.png; sourceTree = "<group>"; };
+		163AC918225F14F0005736FE /* launch_screen_global.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_screen_global.png; sourceTree = "<group>"; };
+		163AC919225F14F0005736FE /* bank_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bank_logo@2x.png"; sourceTree = "<group>"; };
+		163AC91A225F14F0005736FE /* bank_logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bank_logo@3x.png"; sourceTree = "<group>"; };
+		168D4EC8226864DA006B49D9 /* NSURLSession+POST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+POST.h"; sourceTree = "<group>"; };
+		168D4EC9226864DA006B49D9 /* NSURLSession+POST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+POST.m"; sourceTree = "<group>"; };
+		16AF93B5225DDB1C00512EBE /* mepDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mepDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16AF93B8225DDB1C00512EBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16AF93B9225DDB1C00512EBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16AF93C1225DDB1E00512EBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16AF93C6225DDB1E00512EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16AF93C7225DDB1E00512EBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16AFAE62225DDD3600512EBE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		16AFAE63225DDD3600512EBE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		16AFAE64225DDD3600512EBE /* MEPFloatTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEPFloatTextField.m; sourceTree = "<group>"; };
+		16AFAE65225DDD3700512EBE /* MEPFloatTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEPFloatTextField.h; sourceTree = "<group>"; };
+		16AFAE69225DDD6D00512EBE /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		16AFAE6A225DDD6D00512EBE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		16AFAE6B225DDD6D00512EBE /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		16AFAE6C225DDD6D00512EBE /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		16AFAE6D225DDD6D00512EBE /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		16AFAE6E225DDD6D00512EBE /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		16AFAE6F225DDD6D00512EBE /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		16AFAE70225DDD6D00512EBE /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		16AFAE71225DDD6D00512EBE /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		16AFAE72225DDD6D00512EBE /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		16AFAE73225DDD6D00512EBE /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		16AFAE74225DDD6D00512EBE /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		16AFAE75225DDD6D00512EBE /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		16AFAE76225DDD6D00512EBE /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		16AFAE77225DDD6D00512EBE /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		16AFAE78225DDD6D00512EBE /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		16AFAE79225DDD6D00512EBE /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		16AFAE7A225DDD6D00512EBE /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		16AFAE7B225DDD6D00512EBE /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		16AFAE7C225DDD6D00512EBE /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		16AFAE7D225DDD6D00512EBE /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		16AFAE7E225DDD6D00512EBE /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		16AFAE7F225DDD6D00512EBE /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		16AFAE80225DDD6D00512EBE /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		16AFAE81225DDD6D00512EBE /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		16AFAE93225DDE5D00512EBE /* MEP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MEP-Prefix.pch"; sourceTree = "<group>"; };
+		16AFAE9B225DE11A00512EBE /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		16AFAEA3225DE15400512EBE /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		16AFAEA5225DE15900512EBE /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		16AFAEA7225DE15C00512EBE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		16AFAEB0225DE43300512EBE /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		16AFAEB9225ED90B00512EBE /* MEPInterfaceSampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEPInterfaceSampleViewController.h; sourceTree = "<group>"; };
+		16AFAEBA225ED90B00512EBE /* MEPInterfaceSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEPInterfaceSampleViewController.m; sourceTree = "<group>"; };
+		A821A10A2351B1E5001B45A7 /* MEPSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MEPSDK.framework; sourceTree = "<group>"; };
+		A821A10B2351B1E6001B45A7 /* MEPSDKResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MEPSDKResource.bundle; sourceTree = "<group>"; };
+		A821A10C2351B1E6001B45A7 /* ChatSDKResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ChatSDKResource.bundle; sourceTree = "<group>"; };
+		A84045F3233C5BC100FB5B61 /* mepDemo debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mepDemo debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84045F4233C5BC100FB5B61 /* mepDemo copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "mepDemo copy-Info.plist"; path = "/Users/john.hu/Documents/Moxtra_Trunk/moxtra.dev/MEP/APPS/GitHubDemo/mepDemo copy-Info.plist"; sourceTree = "<absolute>"; };
+		A84045F5233C5BE300FB5B61 /* MEPSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MEPSDK.xcodeproj; path = ../../SDK/MEPSDK.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02D3D5222351C6D2001F8895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AF93B2225DDB1C00512EBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A821A10D2351B1E6001B45A7 /* MEPSDK.framework in Frameworks */,
+				16AFAEA4225DE15400512EBE /* libc++.tbd in Frameworks */,
+				16AFAEA8225DE15C00512EBE /* libz.tbd in Frameworks */,
+				16AFAEA6225DE15900512EBE /* libxml2.2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84045DF233C5BC100FB5B61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A840460B233C5BEA00FB5B61 /* libMEPSDK.a in Frameworks */,
+				A84045E0233C5BC100FB5B61 /* libc++.tbd in Frameworks */,
+				A84045E1233C5BC100FB5B61 /* libz.tbd in Frameworks */,
+				A84045E2233C5BC100FB5B61 /* libxml2.2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02D3D5262351C6D2001F8895 /* mepDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02D3D5272351C6D2001F8895 /* mepDemoUITests.m */,
+				02D3D5292351C6D2001F8895 /* Info.plist */,
+			);
+			path = mepDemoUITests;
+			sourceTree = "<group>";
+		};
+		163AC913225F14F0005736FE /* launch */ = {
+			isa = PBXGroup;
+			children = (
+				16AFAEB0225DE43300512EBE /* LaunchScreen.xib */,
+				163AC914225F14F0005736FE /* launch_screen_global@2x.png */,
+				163AC915225F14F0005736FE /* launch_screen_global@3x.png */,
+				163AC916225F14F0005736FE /* bank_logo.png */,
+				163AC917225F14F0005736FE /* launch_screen_bg.png */,
+				163AC918225F14F0005736FE /* launch_screen_global.png */,
+				163AC919225F14F0005736FE /* bank_logo@2x.png */,
+				163AC91A225F14F0005736FE /* bank_logo@3x.png */,
+			);
+			path = launch;
+			sourceTree = SOURCE_ROOT;
+		};
+		168D4ED2226867B1006B49D9 /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				16AFAEA7225DE15C00512EBE /* libz.tbd */,
+				16AFAEA5225DE15900512EBE /* libxml2.2.tbd */,
+				16AFAEA3225DE15400512EBE /* libc++.tbd */,
+				16AFAE9B225DE11A00512EBE /* libstdc++.tbd */,
+				A821A10C2351B1E6001B45A7 /* ChatSDKResource.bundle */,
+				A821A10A2351B1E5001B45A7 /* MEPSDK.framework */,
+				A821A10B2351B1E6001B45A7 /* MEPSDKResource.bundle */,
+			);
+			name = sdk;
+			path = ../../SDK/Products;
+			sourceTree = "<group>";
+		};
+		16AF93AC225DDB1C00512EBE = {
+			isa = PBXGroup;
+			children = (
+				A84045F5233C5BE300FB5B61 /* MEPSDK.xcodeproj */,
+				168D4ED2226867B1006B49D9 /* sdk */,
+				16AFAE68225DDD6D00512EBE /* Masonry */,
+				16AF93B7225DDB1C00512EBE /* mepDemo */,
+				02D3D5262351C6D2001F8895 /* mepDemoUITests */,
+				16AF93B6225DDB1C00512EBE /* Products */,
+				A84045F4233C5BC100FB5B61 /* mepDemo copy-Info.plist */,
+				A840460A233C5BEA00FB5B61 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		16AF93B6225DDB1C00512EBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16AF93B5225DDB1C00512EBE /* mepDemo.app */,
+				A84045F3233C5BC100FB5B61 /* mepDemo debug.app */,
+				02D3D5252351C6D2001F8895 /* mepDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16AF93B7225DDB1C00512EBE /* mepDemo */ = {
+			isa = PBXGroup;
+			children = (
+				16AFAEB9225ED90B00512EBE /* MEPInterfaceSampleViewController.h */,
+				16AFAEBA225ED90B00512EBE /* MEPInterfaceSampleViewController.m */,
+				168D4EC8226864DA006B49D9 /* NSURLSession+POST.h */,
+				168D4EC9226864DA006B49D9 /* NSURLSession+POST.m */,
+				16AFAE93225DDE5D00512EBE /* MEP-Prefix.pch */,
+				16AFAE65225DDD3700512EBE /* MEPFloatTextField.h */,
+				16AFAE64225DDD3600512EBE /* MEPFloatTextField.m */,
+				16AFAE63225DDD3600512EBE /* LoginViewController.h */,
+				16AFAE62225DDD3600512EBE /* LoginViewController.m */,
+				16AF93B8225DDB1C00512EBE /* AppDelegate.h */,
+				16AF93B9225DDB1C00512EBE /* AppDelegate.m */,
+				16AF93C1225DDB1E00512EBE /* Assets.xcassets */,
+				163AC913225F14F0005736FE /* launch */,
+				16AF93C6225DDB1E00512EBE /* Info.plist */,
+				16AF93C7225DDB1E00512EBE /* main.m */,
+			);
+			path = mepDemo;
+			sourceTree = "<group>";
+		};
+		16AFAE68225DDD6D00512EBE /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				16AFAE69225DDD6D00512EBE /* MASCompositeConstraint.h */,
+				16AFAE6A225DDD6D00512EBE /* NSLayoutConstraint+MASDebugAdditions.m */,
+				16AFAE6B225DDD6D00512EBE /* MASConstraint+Private.h */,
+				16AFAE6C225DDD6D00512EBE /* MASLayoutConstraint.h */,
+				16AFAE6D225DDD6D00512EBE /* NSArray+MASShorthandAdditions.h */,
+				16AFAE6E225DDD6D00512EBE /* MASConstraintMaker.h */,
+				16AFAE6F225DDD6D00512EBE /* View+MASAdditions.h */,
+				16AFAE70225DDD6D00512EBE /* NSArray+MASAdditions.h */,
+				16AFAE71225DDD6D00512EBE /* MASUtilities.h */,
+				16AFAE72225DDD6D00512EBE /* MASViewAttribute.h */,
+				16AFAE73225DDD6D00512EBE /* ViewController+MASAdditions.m */,
+				16AFAE74225DDD6D00512EBE /* MASViewConstraint.h */,
+				16AFAE75225DDD6D00512EBE /* MASConstraint.h */,
+				16AFAE76225DDD6D00512EBE /* NSLayoutConstraint+MASDebugAdditions.h */,
+				16AFAE77225DDD6D00512EBE /* MASCompositeConstraint.m */,
+				16AFAE78225DDD6D00512EBE /* MASConstraintMaker.m */,
+				16AFAE79225DDD6D00512EBE /* MASLayoutConstraint.m */,
+				16AFAE7A225DDD6D00512EBE /* NSArray+MASAdditions.m */,
+				16AFAE7B225DDD6D00512EBE /* View+MASAdditions.m */,
+				16AFAE7C225DDD6D00512EBE /* View+MASShorthandAdditions.h */,
+				16AFAE7D225DDD6D00512EBE /* Masonry.h */,
+				16AFAE7E225DDD6D00512EBE /* MASConstraint.m */,
+				16AFAE7F225DDD6D00512EBE /* ViewController+MASAdditions.h */,
+				16AFAE80225DDD6D00512EBE /* MASViewConstraint.m */,
+				16AFAE81225DDD6D00512EBE /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		A84045F6233C5BE300FB5B61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8404605233C5BE500FB5B61 /* libMEPSDK.a */,
+				A8404607233C5BE500FB5B61 /* MEPSDKResource.bundle */,
+				A8404609233C5BE500FB5B61 /* MEPSDKUnitTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A840460A233C5BEA00FB5B61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02D3D5242351C6D2001F8895 /* mepDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D3D5312351C6D2001F8895 /* Build configuration list for PBXNativeTarget "mepDemoUITests" */;
+			buildPhases = (
+				02D3D5212351C6D2001F8895 /* Sources */,
+				02D3D5222351C6D2001F8895 /* Frameworks */,
+				02D3D5232351C6D2001F8895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02D3D52B2351C6D2001F8895 /* PBXTargetDependency */,
+			);
+			name = mepDemoUITests;
+			productName = mepDemoUITests;
+			productReference = 02D3D5252351C6D2001F8895 /* mepDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		16AF93B4225DDB1C00512EBE /* mepDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16AF93CB225DDB1E00512EBE /* Build configuration list for PBXNativeTarget "mepDemo" */;
+			buildPhases = (
+				16AF93B1225DDB1C00512EBE /* Sources */,
+				16AF93B2225DDB1C00512EBE /* Frameworks */,
+				16AF93B3225DDB1C00512EBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mepDemo;
+			productName = mepDemo;
+			productReference = 16AF93B5225DDB1C00512EBE /* mepDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A84045CD233C5BC100FB5B61 /* mepDemo debug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A84045F0233C5BC100FB5B61 /* Build configuration list for PBXNativeTarget "mepDemo debug" */;
+			buildPhases = (
+				A84045CE233C5BC100FB5B61 /* Sources */,
+				A84045DF233C5BC100FB5B61 /* Frameworks */,
+				A84045E4233C5BC100FB5B61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A840460D233C5BEE00FB5B61 /* PBXTargetDependency */,
+			);
+			name = "mepDemo debug";
+			productName = mepDemo;
+			productReference = A84045F3233C5BC100FB5B61 /* mepDemo debug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16AF93AD225DDB1C00512EBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = com.moxtra.mepdemo;
+				TargetAttributes = {
+					02D3D5242351C6D2001F8895 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 16AF93B4225DDB1C00512EBE;
+					};
+					16AF93B4225DDB1C00512EBE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 16AF93B0225DDB1C00512EBE /* Build configuration list for PBXProject "mepDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16AF93AC225DDB1C00512EBE;
+			productRefGroup = 16AF93B6225DDB1C00512EBE /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A84045F6233C5BE300FB5B61 /* Products */;
+					ProjectRef = A84045F5233C5BE300FB5B61 /* MEPSDK.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				16AF93B4225DDB1C00512EBE /* mepDemo */,
+				A84045CD233C5BC100FB5B61 /* mepDemo debug */,
+				02D3D5242351C6D2001F8895 /* mepDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A8404605233C5BE500FB5B61 /* libMEPSDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMEPSDK.a;
+			remoteRef = A8404604233C5BE500FB5B61 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A8404607233C5BE500FB5B61 /* MEPSDKResource.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MEPSDKResource.bundle;
+			remoteRef = A8404606233C5BE500FB5B61 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A8404609233C5BE500FB5B61 /* MEPSDKUnitTest.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MEPSDKUnitTest.xctest;
+			remoteRef = A8404608233C5BE500FB5B61 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02D3D5232351C6D2001F8895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AF93B3225DDB1C00512EBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163AC91D225F14F1005736FE /* bank_logo.png in Resources */,
+				163AC91E225F14F1005736FE /* launch_screen_bg.png in Resources */,
+				16AFAEB1225DE43300512EBE /* LaunchScreen.xib in Resources */,
+				A821A10E2351B1E6001B45A7 /* MEPSDKResource.bundle in Resources */,
+				16AF93C2225DDB1E00512EBE /* Assets.xcassets in Resources */,
+				A821A10F2351B1E6001B45A7 /* ChatSDKResource.bundle in Resources */,
+				163AC91C225F14F1005736FE /* launch_screen_global@3x.png in Resources */,
+				163AC91F225F14F1005736FE /* launch_screen_global.png in Resources */,
+				163AC91B225F14F1005736FE /* launch_screen_global@2x.png in Resources */,
+				163AC921225F14F1005736FE /* bank_logo@3x.png in Resources */,
+				163AC920225F14F1005736FE /* bank_logo@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84045E4233C5BC100FB5B61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84045E5233C5BC100FB5B61 /* bank_logo.png in Resources */,
+				A84045E6233C5BC100FB5B61 /* launch_screen_bg.png in Resources */,
+				A84045E7233C5BC100FB5B61 /* LaunchScreen.xib in Resources */,
+				A84045E8233C5BC100FB5B61 /* Assets.xcassets in Resources */,
+				A84045E9233C5BC100FB5B61 /* launch_screen_global@3x.png in Resources */,
+				A84045EA233C5BC100FB5B61 /* launch_screen_global.png in Resources */,
+				A84045EB233C5BC100FB5B61 /* launch_screen_global@2x.png in Resources */,
+				A84045ED233C5BC100FB5B61 /* bank_logo@3x.png in Resources */,
+				A84045EF233C5BC100FB5B61 /* bank_logo@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02D3D5212351C6D2001F8895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D3D5282351C6D2001F8895 /* mepDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AF93B1225DDB1C00512EBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AFAEBB225ED90B00512EBE /* MEPInterfaceSampleViewController.m in Sources */,
+				16AFAE8A225DDD6D00512EBE /* MASViewConstraint.m in Sources */,
+				16AFAE8B225DDD6D00512EBE /* MASViewAttribute.m in Sources */,
+				16AF93C8225DDB1E00512EBE /* main.m in Sources */,
+				16AF93BA225DDB1C00512EBE /* AppDelegate.m in Sources */,
+				16AFAE87225DDD6D00512EBE /* NSArray+MASAdditions.m in Sources */,
+				16AFAE83225DDD6D00512EBE /* ViewController+MASAdditions.m in Sources */,
+				168D4ECA226864DA006B49D9 /* NSURLSession+POST.m in Sources */,
+				16AFAE84225DDD6D00512EBE /* MASCompositeConstraint.m in Sources */,
+				16AFAE66225DDD3700512EBE /* LoginViewController.m in Sources */,
+				16AFAE88225DDD6D00512EBE /* View+MASAdditions.m in Sources */,
+				16AFAE85225DDD6D00512EBE /* MASConstraintMaker.m in Sources */,
+				16AFAE89225DDD6D00512EBE /* MASConstraint.m in Sources */,
+				16AFAE82225DDD6D00512EBE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				16AFAE86225DDD6D00512EBE /* MASLayoutConstraint.m in Sources */,
+				16AFAE67225DDD3700512EBE /* MEPFloatTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84045CE233C5BC100FB5B61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84045CF233C5BC100FB5B61 /* MEPInterfaceSampleViewController.m in Sources */,
+				A84045D0233C5BC100FB5B61 /* MASViewConstraint.m in Sources */,
+				A84045D1233C5BC100FB5B61 /* MASViewAttribute.m in Sources */,
+				A84045D2233C5BC100FB5B61 /* main.m in Sources */,
+				A84045D3233C5BC100FB5B61 /* AppDelegate.m in Sources */,
+				A84045D4233C5BC100FB5B61 /* NSArray+MASAdditions.m in Sources */,
+				A84045D5233C5BC100FB5B61 /* ViewController+MASAdditions.m in Sources */,
+				A84045D6233C5BC100FB5B61 /* NSURLSession+POST.m in Sources */,
+				A84045D7233C5BC100FB5B61 /* MASCompositeConstraint.m in Sources */,
+				A84045D8233C5BC100FB5B61 /* LoginViewController.m in Sources */,
+				A84045D9233C5BC100FB5B61 /* View+MASAdditions.m in Sources */,
+				A84045DA233C5BC100FB5B61 /* MASConstraintMaker.m in Sources */,
+				A84045DB233C5BC100FB5B61 /* MASConstraint.m in Sources */,
+				A84045DC233C5BC100FB5B61 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A84045DD233C5BC100FB5B61 /* MASLayoutConstraint.m in Sources */,
+				A84045DE233C5BC100FB5B61 /* MEPFloatTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02D3D52B2351C6D2001F8895 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16AF93B4225DDB1C00512EBE /* mepDemo */;
+			targetProxy = 02D3D52A2351C6D2001F8895 /* PBXContainerItemProxy */;
+		};
+		A840460D233C5BEE00FB5B61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MEPSDK;
+			targetProxy = A840460C233C5BEE00FB5B61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02D3D52C2351C6D2001F8895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TQ2JPSBEUK;
+				INFOPLIST_FILE = mepDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.mepDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mepDemo;
+			};
+			name = Debug;
+		};
+		02D3D52D2351C6D2001F8895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TQ2JPSBEUK;
+				INFOPLIST_FILE = mepDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.mepDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mepDemo;
+			};
+			name = Release;
+		};
+		16AF93C9225DDB1E00512EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16AF93CA225DDB1E00512EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16AF93CC225DDB1E00512EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5X58D2989;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../SDK/Products\"",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/mepDemo/MEP-Prefix.pch";
+				INFOPLIST_FILE = mepDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxtra.mepDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16AF93CD225DDB1E00512EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5X58D2989;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../SDK/Products\"",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/mepDemo/MEP-Prefix.pch";
+				INFOPLIST_FILE = mepDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxtra.mepDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A84045F1233C5BC100FB5B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5X58D2989;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mepsdk",
+					"$(PROJECT_DIR)/sdk",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/mepDemo/MEP-Prefix.pch";
+				INFOPLIST_FILE = "mepDemo copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxtra.mepDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A84045F2233C5BC100FB5B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5X58D2989;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mepsdk",
+					"$(PROJECT_DIR)/sdk",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/mepDemo/MEP-Prefix.pch";
+				INFOPLIST_FILE = "mepDemo copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxtra.mepDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02D3D5312351C6D2001F8895 /* Build configuration list for PBXNativeTarget "mepDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D3D52C2351C6D2001F8895 /* Debug */,
+				02D3D52D2351C6D2001F8895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16AF93B0225DDB1C00512EBE /* Build configuration list for PBXProject "mepDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16AF93C9225DDB1E00512EBE /* Debug */,
+				16AF93CA225DDB1E00512EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16AF93CB225DDB1E00512EBE /* Build configuration list for PBXNativeTarget "mepDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16AF93CC225DDB1E00512EBE /* Debug */,
+				16AF93CD225DDB1E00512EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A84045F0233C5BC100FB5B61 /* Build configuration list for PBXNativeTarget "mepDemo debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84045F1233C5BC100FB5B61 /* Debug */,
+				A84045F2233C5BC100FB5B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16AF93AD225DDB1C00512EBE /* Project object */;
+}
