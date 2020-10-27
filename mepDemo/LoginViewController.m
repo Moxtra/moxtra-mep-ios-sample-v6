@@ -12,6 +12,7 @@
 #import "Masonry.h"
 #import "MEPInterfaceSampleViewController.h"
 #import "NSURLSession+POST.h"
+#import "MEPBroadcastingManager.h"
 
 @interface LoginViewController ()
 
@@ -147,6 +148,8 @@
     {
         [self appDidLogin];
     }
+    
+    [MEPBroadcastingManager sharedInstance];
 }
 
 - (void)viewWillAppear:(BOOL)animated

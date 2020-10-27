@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		027EB6E72547BE8E00826C76 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027EB6E62547BE8E00826C76 /* ReplayKit.framework */; };
+		027EB6EB2547BE8E00826C76 /* SampleHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 027EB6EA2547BE8E00826C76 /* SampleHandler.m */; };
+		027EB6EF2547BE8E00826C76 /* Broadcasting.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 027EB6E52547BE8E00826C76 /* Broadcasting.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		027EB6FC2547BEED00826C76 /* MEPBroadcastingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 027EB6FB2547BEED00826C76 /* MEPBroadcastingManager.m */; };
 		02ADA23523E8710B005B7DC0 /* MEPSDKResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 02ADA21223E8710A005B7DC0 /* MEPSDKResource.bundle */; };
 		02ADA23623E8710B005B7DC0 /* ChatSDKResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 02ADA21323E8710A005B7DC0 /* ChatSDKResource.bundle */; };
 		02ADA23723E8710B005B7DC0 /* MEPSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02ADA21423E8710A005B7DC0 /* MEPSDK.framework */; };
@@ -63,8 +67,42 @@
 		16AFAEBB225ED90B00512EBE /* MEPInterfaceSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFAEBA225ED90B00512EBE /* MEPInterfaceSampleViewController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		027EB6ED2547BE8E00826C76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16AF93AD225DDB1C00512EBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 027EB6E42547BE8E00826C76;
+			remoteInfo = Broadcasting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		027EB6F02547BE8E00826C76 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				027EB6EF2547BE8E00826C76 /* Broadcasting.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		02418DE0237AA57B006FB3E7 /* mepDemoUITests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "mepDemoUITests copy-Info.plist"; path = "/Volumes/Samsung_T5/MoxtraCode/Trunk/moxtra.dev/MEP/APPS/GitHubDemo/mepDemoUITests copy-Info.plist"; sourceTree = "<absolute>"; };
+		027EB6E52547BE8E00826C76 /* Broadcasting.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Broadcasting.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		027EB6E62547BE8E00826C76 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		027EB6E92547BE8E00826C76 /* SampleHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleHandler.h; sourceTree = "<group>"; };
+		027EB6EA2547BE8E00826C76 /* SampleHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleHandler.m; sourceTree = "<group>"; };
+		027EB6EC2547BE8E00826C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		027EB6F62547BE9A00826C76 /* Broadcasting.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Broadcasting.entitlements; sourceTree = "<group>"; };
+		027EB6F72547BECC00826C76 /* mepDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mepDemo.entitlements; sourceTree = "<group>"; };
+		027EB6FA2547BEED00826C76 /* MEPBroadcastingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEPBroadcastingManager.h; sourceTree = "<group>"; };
+		027EB6FB2547BEED00826C76 /* MEPBroadcastingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEPBroadcastingManager.m; sourceTree = "<group>"; };
+		027EB6FF2547BEF900826C76 /* AVSampleDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVSampleDefines.h; sourceTree = "<group>"; };
 		02ADA21223E8710A005B7DC0 /* MEPSDKResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MEPSDKResource.bundle; sourceTree = "<group>"; };
 		02ADA21323E8710A005B7DC0 /* ChatSDKResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ChatSDKResource.bundle; sourceTree = "<group>"; };
 		02ADA21423E8710A005B7DC0 /* MEPSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MEPSDK.framework; sourceTree = "<group>"; };
@@ -146,6 +184,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		027EB6E22547BE8E00826C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				027EB6E72547BE8E00826C76 /* ReplayKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		16AF93B2225DDB1C00512EBE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -160,6 +206,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		027EB6E82547BE8E00826C76 /* Broadcasting */ = {
+			isa = PBXGroup;
+			children = (
+				027EB6F62547BE9A00826C76 /* Broadcasting.entitlements */,
+				027EB6E92547BE8E00826C76 /* SampleHandler.h */,
+				027EB6EA2547BE8E00826C76 /* SampleHandler.m */,
+				027EB6FF2547BEF900826C76 /* AVSampleDefines.h */,
+				027EB6EC2547BE8E00826C76 /* Info.plist */,
+			);
+			path = Broadcasting;
+			sourceTree = "<group>";
+		};
 		02ADA21123E870C2005B7DC0 /* SDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -285,6 +343,7 @@
 			children = (
 				16AFAE68225DDD6D00512EBE /* Masonry */,
 				16AF93B7225DDB1C00512EBE /* mepDemo */,
+				027EB6E82547BE8E00826C76 /* Broadcasting */,
 				16AF93B6225DDB1C00512EBE /* Products */,
 				A84045F4233C5BC100FB5B61 /* mepDemo copy-Info.plist */,
 				A840460A233C5BEA00FB5B61 /* Frameworks */,
@@ -297,6 +356,7 @@
 			isa = PBXGroup;
 			children = (
 				16AF93B5225DDB1C00512EBE /* mepDemo.app */,
+				027EB6E52547BE8E00826C76 /* Broadcasting.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -304,6 +364,7 @@
 		16AF93B7225DDB1C00512EBE /* mepDemo */ = {
 			isa = PBXGroup;
 			children = (
+				027EB6F72547BECC00826C76 /* mepDemo.entitlements */,
 				16AFAEB9225ED90B00512EBE /* MEPInterfaceSampleViewController.h */,
 				16AFAEBA225ED90B00512EBE /* MEPInterfaceSampleViewController.m */,
 				168D4EC8226864DA006B49D9 /* NSURLSession+POST.h */,
@@ -313,6 +374,8 @@
 				16AFAE64225DDD3600512EBE /* MEPFloatTextField.m */,
 				16AFAE63225DDD3600512EBE /* LoginViewController.h */,
 				16AFAE62225DDD3600512EBE /* LoginViewController.m */,
+				027EB6FA2547BEED00826C76 /* MEPBroadcastingManager.h */,
+				027EB6FB2547BEED00826C76 /* MEPBroadcastingManager.m */,
 				16AF93B8225DDB1C00512EBE /* AppDelegate.h */,
 				16AF93B9225DDB1C00512EBE /* AppDelegate.m */,
 				16AF93C1225DDB1E00512EBE /* Assets.xcassets */,
@@ -361,6 +424,7 @@
 				02ADA25B23E87231005B7DC0 /* libxml2.2.tbd */,
 				02ADA25923E87228005B7DC0 /* libz.tbd */,
 				02ADA25723E8721F005B7DC0 /* libc++.tbd */,
+				027EB6E62547BE8E00826C76 /* ReplayKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -368,6 +432,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		027EB6E42547BE8E00826C76 /* Broadcasting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 027EB6F32547BE8E00826C76 /* Build configuration list for PBXNativeTarget "Broadcasting" */;
+			buildPhases = (
+				027EB6E12547BE8E00826C76 /* Sources */,
+				027EB6E22547BE8E00826C76 /* Frameworks */,
+				027EB6E32547BE8E00826C76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Broadcasting;
+			productName = Broadcasting;
+			productReference = 027EB6E52547BE8E00826C76 /* Broadcasting.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		16AF93B4225DDB1C00512EBE /* mepDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16AF93CB225DDB1E00512EBE /* Build configuration list for PBXNativeTarget "mepDemo" */;
@@ -375,10 +456,12 @@
 				16AF93B1225DDB1C00512EBE /* Sources */,
 				16AF93B2225DDB1C00512EBE /* Frameworks */,
 				16AF93B3225DDB1C00512EBE /* Resources */,
+				027EB6F02547BE8E00826C76 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				027EB6EE2547BE8E00826C76 /* PBXTargetDependency */,
 			);
 			name = mepDemo;
 			productName = mepDemo;
@@ -394,6 +477,9 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = com.moxtra.mepdemo;
 				TargetAttributes = {
+					027EB6E42547BE8E00826C76 = {
+						CreatedOnToolsVersion = 12.1;
+					};
 					16AF93B4225DDB1C00512EBE = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -413,11 +499,19 @@
 			projectRoot = "";
 			targets = (
 				16AF93B4225DDB1C00512EBE /* mepDemo */,
+				027EB6E42547BE8E00826C76 /* Broadcasting */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		027EB6E32547BE8E00826C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		16AF93B3225DDB1C00512EBE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -462,6 +556,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		027EB6E12547BE8E00826C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				027EB6EB2547BE8E00826C76 /* SampleHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		16AF93B1225DDB1C00512EBE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -474,6 +576,7 @@
 				16AFAE87225DDD6D00512EBE /* NSArray+MASAdditions.m in Sources */,
 				16AFAE83225DDD6D00512EBE /* ViewController+MASAdditions.m in Sources */,
 				168D4ECA226864DA006B49D9 /* NSURLSession+POST.m in Sources */,
+				027EB6FC2547BEED00826C76 /* MEPBroadcastingManager.m in Sources */,
 				16AFAE84225DDD6D00512EBE /* MASCompositeConstraint.m in Sources */,
 				16AFAE66225DDD3700512EBE /* LoginViewController.m in Sources */,
 				16AFAE88225DDD6D00512EBE /* View+MASAdditions.m in Sources */,
@@ -487,7 +590,57 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		027EB6EE2547BE8E00826C76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 027EB6E42547BE8E00826C76 /* Broadcasting */;
+			targetProxy = 027EB6ED2547BE8E00826C76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		027EB6F12547BE8E00826C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = Broadcasting/Broadcasting.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5X58D2989;
+				INFOPLIST_FILE = Broadcasting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxtra.mepDemo.Broadcasting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		027EB6F22547BE8E00826C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = Broadcasting/Broadcasting.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5X58D2989;
+				INFOPLIST_FILE = Broadcasting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxtra.mepDemo.Broadcasting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		16AF93C9225DDB1E00512EBE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -604,6 +757,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = mepDemo/mepDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L5X58D2989;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -627,6 +781,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = mepDemo/mepDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L5X58D2989;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -649,6 +804,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		027EB6F32547BE8E00826C76 /* Build configuration list for PBXNativeTarget "Broadcasting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				027EB6F12547BE8E00826C76 /* Debug */,
+				027EB6F22547BE8E00826C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		16AF93B0225DDB1C00512EBE /* Build configuration list for PBXProject "mepDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
