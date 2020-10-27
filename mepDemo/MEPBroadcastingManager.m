@@ -19,8 +19,8 @@
     #define kMessageFinished @"finished"
 #endif
 
-#define GROUP_NAME @"group.com.moxtra.mepDemo"
-#define BROADCASTING_ID @"com.moxtra.mepDemo.Broadcasting"
+#define kGroupName @""
+#define kBroadcastExtensionBundleIdentifier @""
 
 @interface MEPBroadcastingManager()<MEPBroadcastingDelegate>
 @property (nonatomic, strong) NSOperationQueue *screenImageProcessQueue;
@@ -49,8 +49,9 @@
             [self.userDefault addObserver:self forKeyPath:kImageSampleKey options:NSKeyValueObservingOptionNew context:nil];
         }
         
+        NSAssert((kBroadcastExtensionBundleIdentifier.length), @"Please set you broadcast extension bundle identifier!");
         MEPBroadcasting *broadcasting = [MEPBroadcasting sharedInstance];
-        broadcasting.broadcastExtensionBundleIdentifier = BROADCASTING_ID;
+        broadcasting.broadcastExtensionBundleIdentifier = kBroadcastExtensionBundleIdentifier;
         broadcasting.delegate = self;
     }
     return self;
@@ -79,9 +80,9 @@
 #pragma  mark -private
 - (NSUserDefaults *)userDef
 {
-    NSString *groupName = GROUP_NAME;
-    NSUserDefaults *appGroupDefaults = [[NSUserDefaults alloc] initWithSuiteName:groupName];
-    NSString *reason = [NSString stringWithFormat:@"Pls check your app group(%@) is enabled or not", groupName];
+    NSAssert((kGroupName.length), @"Please set you group name!");
+    NSUserDefaults *appGroupDefaults = [[NSUserDefaults alloc] initWithSuiteName:kGroupName];
+    NSString *reason = [NSString stringWithFormat:@"Pls check your app group(%@) is enabled or not", kGroupName];
     NSAssert(appGroupDefaults != nil, reason);
     return appGroupDefaults;
 }

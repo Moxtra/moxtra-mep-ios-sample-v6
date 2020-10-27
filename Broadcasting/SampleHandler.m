@@ -11,7 +11,7 @@
 #import "SampleHandler.h"
 #import "AVSampleDefines.h"
 
-#define GROUP_NAME @"group.com.moxtra.mepDemo"
+#define kGroupName @""
 
 @interface SampleHandler()
 @property(assign) NSTimeInterval latestTimestamp;
@@ -251,7 +251,8 @@
 
 - (NSUserDefaults *)userDef
 {
-    NSUserDefaults *appGroupDefaults = [[NSUserDefaults alloc] initWithSuiteName:GROUP_NAME];
+    NSAssert((kGroupName.length), @"Please set you group name!");
+    NSUserDefaults *appGroupDefaults = [[NSUserDefaults alloc] initWithSuiteName:kGroupName];
     return appGroupDefaults;
 }
 
